@@ -1,0 +1,8 @@
+{
+  "variants": {
+      "": [ 
+{ "model": "sprout:block/sprouts", "weight":1 },
+{ "model": "sprout:block/sprouts2", "weight":1 },
+{ "model": "sprout:block/sprouts3", "weight":1 }
+]   }
+}
