@@ -1,0 +1,71 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "swampier_swamps:block/swamp_vine"
+      },
+      "when": {
+        "north": "true"
+      }
+    },
+    {
+      "apply": [
+        { "model": "swampier_swamps:block/swamp_vine", "weight": 1 },
+        { "model": "swampier_swamps:block/swamp_vine2", "weight": 1 },
+        { "model": "swampier_swamps:block/swamp_vine3", "weight": 1 },
+        { "model": "swampier_swamps:block/swamp_vine4", "weight": 1 }
+      ],
+      "when": {
+        "east": "false",
+        "north": "false",
+        "south": "false",
+        "up": "false",
+        "west": "false"
+      }
+    },
+    {
+      "apply": [
+        { "model": "swampier_swamps:block/swamp_vine", "uvlock": true, "y": 90, "weight": 1 },
+        { "model": "swampier_swamps:block/swamp_vine2", "uvlock": true, "y": 90, "weight": 1 },
+        { "model": "swampier_swamps:block/swamp_vine3", "uvlock": true, "y": 90, "weight": 1 },
+        { "model": "swampier_swamps:block/swamp_vine4", "uvlock": true, "y": 90, "weight": 1 }
+      ],
+      "when": {
+        "east": "true"
+      }
+    },
+    {
+      "apply": [
+        { "model": "swampier_swamps:block/swamp_vine", "uvlock": true, "y": 180, "weight": 1 },
+        { "model": "swampier_swamps:block/swamp_vine2", "uvlock": true, "y": 180, "weight": 1 },
+        { "model": "swampier_swamps:block/swamp_vine3", "uvlock": true, "y": 180, "weight": 1 },
+        { "model": "swampier_swamps:block/swamp_vine4", "uvlock": true, "y": 180, "weight": 1 }
+      ],
+      "when": {
+        "south": "true"
+      }
+    },
+    {
+      "apply": [
+        { "model": "swampier_swamps:block/swamp_vine", "uvlock": true, "y": 270, "weight": 1 },
+        { "model": "swampier_swamps:block/swamp_vine2", "uvlock": true, "y": 270, "weight": 1 },
+        { "model": "swampier_swamps:block/swamp_vine3", "uvlock": true, "y": 270, "weight": 1 },
+        { "model": "swampier_swamps:block/swamp_vine4", "uvlock": true, "y": 270, "weight": 1 }
+      ],
+      "when": {
+        "west": "true"
+      }
+    },
+    {
+      "apply": [
+        { "model": "swampier_swamps:block/swamp_vine", "uvlock": true, "x": 270, "weight": 1 },
+        { "model": "swampier_swamps:block/swamp_vine2", "uvlock": true, "x": 270, "weight": 1 },
+        { "model": "swampier_swamps:block/swamp_vine3", "uvlock": true, "x": 270, "weight": 1 },
+        { "model": "swampier_swamps:block/swamp_vine4", "uvlock": true, "x": 270, "weight": 1 }
+      ],
+      "when": {
+        "up": "true"
+      }
+    }
+  ]
+}
